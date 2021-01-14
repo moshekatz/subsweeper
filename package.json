@@ -2,23 +2,23 @@
   "name": "subscription-manager",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
-    "start": "serve",
+    "start": "browser-sync start --server --files 'src'",
     "build": "echo This is a static template, there is no bundler or bundling involved!"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "https://github.com/moshekatz/subsweeper"
   },
   "keywords": [],
-  "author": "Ives van Hoorne",
+  "author": "Moshe Katz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/moshekatz/subsweeper/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "serve": "^11.2.0"
+    "serve": "^11.2.0",
+     "browser-sync": "^2.26.13"
   }
 }

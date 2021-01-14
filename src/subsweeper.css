@@ -1,0 +1,91 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #fff0cf3b;
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.2rem;
+}
+
+.header ul {
+  padding: 0;
+}
+
+.header li {
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.header li a.active-view {
+  text-decoration: underline solid firebrick 2px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stats-container div {
+  width: 270px;
+  height: 81px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: black;
+  border: 3px solid firebrick;
+}
+
+.subscriptions-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.subscriptions-container .subscriptions-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscriptions-container .subscriptions-column ul {
+  padding: 0;
+  margin: 0;
+}
+
+.subscriptions-container .subscriptions-column ul li {
+  width: 250px;
+  height: 75px;
+  margin: 10px;
+  border: 2px solid brown;
+  border-radius: 3px;
+}
+
+.subscriptions-container input {
+  width: 250px;
+  height: 75px;
+  margin: 0 10px;
+  border: 2px solid brown;
+  border-radius: 3px;
+}
