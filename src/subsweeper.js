@@ -3,7 +3,7 @@ import {
   getAnnualOutgoings,
   getMonthlyTotalSpentPerMonth,
   getAnnualTotalSpentPerYear,
-} from "./api/outgoing-api.js";
+} from "./outgoing-api.js";
 
 const stats = document.getElementById("stats");
 const monthlyList = document.getElementById("monthly-list");
