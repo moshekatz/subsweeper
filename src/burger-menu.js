@@ -1,5 +1,5 @@
-const panel = document.querySelector(".burger-menu__panel");
 const toggleBurger = () => {
+  const panel = document.querySelector(".burger-menu__panel");
   if (panel.classList.contains("burger-menu__panel--open")) {
     panel.classList.remove("burger-menu__panel--open");
     panel.classList.add("burger-menu__panel--close");
@@ -15,3 +15,6 @@ const toggleBurger = () => {
     menubar.classList.add("burger-menu__bar--open");
   }
 };
+
+const trigger = document.getElementsByClassName("burger-menu__trigger")[0];
+trigger.addEventListener("click", toggleBurger);
